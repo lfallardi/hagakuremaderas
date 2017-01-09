@@ -1,0 +1,30 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+// ----- ACA COMIENZA TODO LO QUE ES CSS DEL BODY -------
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+	> li {
+  		float: none;
+  		display: inline-block;
+	}
+}
+
+// ----- ACA TERMINA TODO LO QUE ES CSS DEL BODY -------
+
+
+
+// ----- ACA EMPIEZA TODO LO QUE ES MEDIA QUERY --------
+@media (max-width: 414px){
+	.navbar-nav {
+		width: 100%;
+		text-align: left;
+		> li{
+			float: none;
+			display: block;
+		}
+	}
+}
+// ----- ACA TERMINA TODO LO QUE ES MEDIA QUERY --------
