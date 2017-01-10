@@ -31,5 +31,21 @@
 
 #productos .prodyserv {
   padding: 0px; }
+#productos h2.jumbotron {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center; }
+#productos #producto1 {
+  height: 500px; }
+  #productos #producto1 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center; }
+  #productos #producto1 p.cita {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px; }
 
 /*# sourceMappingURL=style.css.map */

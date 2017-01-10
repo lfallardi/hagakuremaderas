@@ -23,6 +23,29 @@
 		padding: 0px;
 	}
 
+	h2.jumbotron{
+		background: white;
+		font-family: $fuente-sec;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#producto1{
+		height: 500px;
+		h3{
+			font-family: $fuente-sec;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		p.cita{
+			font-family: $fuente-ppal;
+			font-style: italic;
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+
 }
 
 // ----- ACA TERMINA TODO LO QUE ES CSS DEL BODY -------
