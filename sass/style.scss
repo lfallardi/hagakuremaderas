@@ -3,13 +3,26 @@
 @import "footer";
 
 // ----- ACA COMIENZA TODO LO QUE ES CSS DEL BODY -------
-.navbar-nav {
-	width: 100%;
-	text-align: center;
-	> li {
-  		float: none;
-  		display: inline-block;
+#us{
+	h2.jumbotron{
+		background: white;
+		font-family: $fuente-sec;
+		font-weight: bold;
+		text-align: center;
 	}
+	p{
+		font-family: $fuente-ppal;
+		font-size: 14px;
+		line-height: 24px;
+		text-align: center;
+	}
+}
+
+#productos{
+	.prodyserv{
+		padding: 0px;
+	}
+
 }
 
 // ----- ACA TERMINA TODO LO QUE ES CSS DEL BODY -------
@@ -17,14 +30,5 @@
 
 
 // ----- ACA EMPIEZA TODO LO QUE ES MEDIA QUERY --------
-@media (max-width: 414px){
-	.navbar-nav {
-		width: 100%;
-		text-align: left;
-		> li{
-			float: none;
-			display: block;
-		}
-	}
-}
+
 // ----- ACA TERMINA TODO LO QUE ES MEDIA QUERY --------

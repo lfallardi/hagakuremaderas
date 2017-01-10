@@ -1,3 +1,9 @@
+.navbar {
+  border: none;
+  background: white;
+  border-radius: 0px;
+  box-shadow: none; }
+
 .navbar-nav {
   width: 100%;
   text-align: center; }
@@ -12,5 +18,18 @@
     .navbar-nav > li {
       float: none;
       display: block; } }
+#us h2.jumbotron {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center; }
+#us p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center; }
+
+#productos .prodyserv {
+  padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */
