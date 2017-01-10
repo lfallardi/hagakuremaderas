@@ -36,16 +36,42 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center; }
-#productos #producto1 {
-  height: 500px; }
-  #productos #producto1 h3 {
+
+#galeria h2.jumbotron {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 15px; }
+#galeria p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center; }
+#galeria .nopad {
+  padding: 0px; }
+
+#contacto {
+  margin: 30px 0px; }
+  #contacto h2.jumbotron {
+    background: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-align: center; }
-  #productos #producto1 p.cita {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  #contacto p {
     font-family: "Open Sans", sans-serif;
-    font-style: italic;
     font-size: 14px;
-    line-height: 24px; }
+    font-style: italic;
+    text-align: center; }
+  #contacto form {
+    margin: 30px 0px; }
+    #contacto form textarea {
+      box-sizing: border-box;
+      resize: none; }
+    #contacto form button {
+      float: right; }
 
 /*# sourceMappingURL=style.css.map */
