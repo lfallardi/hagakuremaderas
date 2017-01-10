@@ -23,11 +23,13 @@
 		padding: 0px;
 	}
 
-	h2.jumbotron{
-		background: white;
-		font-family: $fuente-sec;
-		font-weight: bold;
-		text-align: center;
+	h2{
+		.jumbotron{
+			background: white;
+			font-family: $fuente-sec;
+			font-weight: bold;
+			text-align: center;
+		}
 	}
 
 	#producto1{
